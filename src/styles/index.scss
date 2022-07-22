@@ -53,6 +53,16 @@ body {
   width: 1170px;
   margin-left: auto;
   margin-right: auto;
+  @media (max-width: 1200px) {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media (max-width: 800px) {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .logo--yellow {

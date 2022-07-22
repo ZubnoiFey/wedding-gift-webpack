@@ -1,9 +1,1 @@
-import "./styles/reset.scss";
-import "./styles/index.scss";
-import "./styles/header.scss";
-import "./styles/hero.scss";
-import "./styles/components/button.scss";
-import "./styles/gift-occasions.scss";
-import "./styles/get-started.scss";
-import "./styles/best-blogs.scss";
-import "./styles/footer.scss";
+import("/src/styles/styles.scss")

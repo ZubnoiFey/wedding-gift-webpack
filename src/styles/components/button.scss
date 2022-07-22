@@ -11,6 +11,12 @@
   padding-bottom: 13px;
   padding-left: 25px;
   text-transform: uppercase;
+  @include media-tablet {
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+  }
 }
 
 .hero__button {
@@ -22,6 +28,12 @@
   padding-bottom: 20px;
   padding-left: 40px;
   text-transform: uppercase;
+  @include media-tablet {
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+  }
 }
 
 .hero__button--filled {
@@ -29,6 +41,7 @@
   border: 1px solid #F7941E;
   border-radius: 5px;
   color: #ffffff;
+
 }
 
 .hero__button--transparent {
@@ -36,6 +49,7 @@
   border: 1px solid #F7941E;
   border-radius: 5px;
   color: #F7941E;
+
 }
 
 
@@ -48,6 +62,20 @@
   font-size: 18px;
   line-height: 1.2;
   text-transform: uppercase;
+  @include media-tablet {
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+  }
+  @include media-mobile {
+    padding-top: 6px;
+    padding-right: 10px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 14px;
+  }
 }
 
 .get-started__button--black {
@@ -55,6 +83,7 @@
   color: #FFFFFF;
   border: 1px solid #000000;
   border-radius: 10px;
+
 }
 
 .get-started__button--transparent {
