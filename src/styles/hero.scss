@@ -1,0 +1,39 @@
+.main {
+padding-top: 70px;
+  padding-bottom: 130px;
+  background-color: #F1F1F2;
+}
+
+.hero__main {
+  display: flex;
+  align-items: center;
+  gap: 250px;
+}
+
+.hero__main--first {
+  margin-bottom: 70px;
+}
+
+.hero__text {
+  width: 400px;
+}
+
+.hero__header {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 60px;
+}
+
+.hero__paragraph {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 65px;
+}
+
+.hero__subheader {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.4;
+}

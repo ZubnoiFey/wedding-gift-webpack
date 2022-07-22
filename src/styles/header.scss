@@ -1,0 +1,27 @@
+.header{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__list {
+  display: flex;
+  gap: 31px;
+  align-items: center;
+}
+
+.header__link {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #000000;
+}
+
+.header__logo {
+  color: #000000;
+}
+

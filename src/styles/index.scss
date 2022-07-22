@@ -1,0 +1,88 @@
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  font-weight: 300;
+  src: url("../../src/fonts/Gilroy-UltraLight.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  font-weight: 400;
+  src: url("../../src/fonts/Gilroy-Thin.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  font-weight: 600;
+  src: url("../../src/fonts/Gilroy-Regular.woff2") format('woff2');
+}
+
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  font-weight: 700;
+  src: url("../../src/fonts/Gilroy-Bold.woff2") format('woff2');
+}
+
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  font-weight: 900;
+  src: url("../../src/fonts/Gilroy-Extrabold.woff2") format('woff2');
+}
+
+
+@font-face {
+  font-family: HomemadeApple;
+  font-display: swap;
+  font-weight: 100;
+  src: url("../../src/fonts/HomemadeApple-Regular.woff2") format('woff2');
+}
+
+
+body {
+  font-family: Gilroy, sans-serif;
+}
+
+
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo--yellow {
+  color: #F7941E;
+}
+
+.logo {
+  font-family: HomemadeApple, sans-serif;
+  font-size:18px ;
+  font-weight: 400;
+  line-height:1.6 ;
+}
+
+
+.heading {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.heading--center {
+  text-align: center;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.text--center {
+  text-align: center;
+}

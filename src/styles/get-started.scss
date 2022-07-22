@@ -1,0 +1,27 @@
+.get-started {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #F7941E;
+}
+
+.get-started__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.get-started__text {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #000000;
+}
+
+.get-started__text--bold {
+  font-weight: 700;
+}
+
+.get-started__buttons-wrapper {
+  display: flex;
+  gap: 10px;
+}
