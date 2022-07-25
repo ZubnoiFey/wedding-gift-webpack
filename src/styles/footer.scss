@@ -8,6 +8,11 @@
   justify-content: space-between;
   border-bottom: 1px solid #000000;
   padding-bottom: 45px;
+  @include media-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
 }
 
 .footer__link {
@@ -22,6 +27,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @include media-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
 }
 
 .footer__copyright {

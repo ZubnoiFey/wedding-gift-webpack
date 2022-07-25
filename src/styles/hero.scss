@@ -9,6 +9,13 @@
 }
 
 
+  @include media-mobile {
+    .hero__main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  }
+}
 
 .hero__main {
   display: flex;
@@ -22,6 +29,8 @@
   @include media-mobile {
     display: flex;
     gap: 20px;
+    align-items: flex-start;
+    flex-wrap: wrap;
   }
 }
 
