@@ -23,22 +23,22 @@
   }
 }
 
-.best-blogs__image-wrapper {
-  width: 400px;
+.best-blogs__image{
+  width: 100%;
   @include media-mobile {
-    width: 200px;
+    width: 80%;
   }
 }
 
-.best-blogs__image{
-  width: 100%;
-
-}
 
 .best-blogs__black-wrapper {
   background-color: #000000;
   display: flex;
   gap: 100px;
+  @include media-tablet {
+    display: flex;
+    flex-direction: column;
+  }
   @include media-mobile {
 display: flex;
     flex-direction: column;
@@ -48,6 +48,11 @@ display: flex;
 .best-blogs__main-text {
   padding: 65px;
   width: 700px;
+
+  @include media-mobile {
+    padding: 30px;
+    width: 80%;
+  }
 }
 
 .best-blogs__name {
@@ -66,6 +71,7 @@ display: flex;
   margin-bottom: 80px;
   @include media-mobile {
     font-size: 18px;
+    margin-bottom: 40px;
   }
 }
 
@@ -81,9 +87,11 @@ display: flex;
   margin-top: 40px;
   display: flex;
   gap: 30px;
+
   @include media-mobile {
     display: flex;
     flex-direction: column;
+
   }
 }
 
@@ -92,8 +100,14 @@ display: flex;
   &:hover {
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
   }
+
+  @include media-tablet {
+    padding: 20px;
+  }
+
   @include media-mobile {
-    width: 350px;
+    padding: 20px;
+    width: 90%;
   }
 
 }
